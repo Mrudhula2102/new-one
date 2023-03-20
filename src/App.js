@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Counter from './Components/Counter'
+import File from './Components/File'
+import Newone from './Components/Newone'
+import Number from './Components/Number'
+import Onefunction from './Components/Onefunction'
+import State from './Components/State'
+import Statebasic from './Components/Statebasic'
+import Tablepg from './Components/Tablepg'
+import Text from './Components/Text'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    {/*<File></File>*/}
+     {/*<Number></Number>*/}
+     {/*<Tablepg></Tablepg>*/}
+     {/*<Statebasic></Statebasic>*/}
+     {/*<Counter></Counter>*/}
+     {/*<State></State>*/}
+     {/*<Newone></Newone>*/}
+     {/*<Text></Text>*/}
+     <Onefunction></Onefunction>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
